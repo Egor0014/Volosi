@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Header
+============================================================ */
+
+nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_element{
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .2s linear;
+}
+
+.nav_element:last-child{
+    margin: 0;
+}
+
+.nav_element:hover{
+    transition: .2s linear;
+    color: #D3B288;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+}
+
+.address{
+    padding: 3px 0;
+    border-bottom: 2px dashed #D3B288;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.add_button{
+    padding: 8px 15px;
+    background-color: #D3B288;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.add_button:hover{
+    transition: .2s linear;
+    background-color: #a58b6a;
+}
+
+.button_text{
+    color: #fff;
+}
+
+/* Intro
+============================================================ */
+
+.intro{
+    background-image: url(./img/intro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.intro_block{
+    display: flex;
+    width: 526px;
+    height: 700px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+
+.intro_content{
+    margin: 20px;
+    padding: 0 50px;
+    border: 3px solid #D3B288;
+}
+
+.intro_title{
+    font-size: 36px;
+    margin-top: 186px;
+    margin-bottom: 25px;
+    line-height: 50px;
+}
+
+.intro_text{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.intro_button{
+    justify-content: left;
+    background-color: #D3B288;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 120px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.intro_button:hover{
+    transition: .2s linear;
+    background-color: #a58b6a;}
+
+.intro-button_text{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+/* Info
+============================================================ */
+
+.info_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 100px;
+}
+
+.info_content{
+    max-width: 515px;
+}
+
+.info_title{
+    font-size: 36px;
+    color: #D3B288;
+    margin-bottom: 40px;
+}
+
+.info_text_1{
+    margin-bottom: 20px;
+}
+
+/* Services
+============================================================ */
+
+.services{
+    background-color:rgba(204, 180, 75, 0.103);
+}
+
+.services_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 125px 0;
+}
+
+.services_content{
+    display: block;
+    max-width: 416px;
+}
+
+.serv_title{
+    margin-top: 5px;
+    max-width: 300px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.services_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv_button{
+    width: 196px;
+    height: 260px;
+    background-color: #D3B288;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.serv_button:hover{
+    transition: .2s linear;
+    background-color: #a58b6a;
+}
+
+.serv_element{
+    margin-left: 20px;
+}
+
+.serv_element:first-child{
+    margin: 0;
+}
+
+.button_content{
+    border: #fff solid;
+}
+
+.button_content_text{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: 18px;
+    margin: 188px 18px 30px 18px;
+}
+
+/* footer
+============================================================================================ */
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.footer_text{
+    color: #33333393;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.footer_text:hover{
+    transition: .2s linear;
+    color: #333333;
+}
+
+#block_2{
+    border-bottom: dashed 2px;
+    color: #33333393;
+}
+
+#block_3{
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
